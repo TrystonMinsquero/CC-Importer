@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 3827518613
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: characters/mulletguy
+      Dependencies: {}
