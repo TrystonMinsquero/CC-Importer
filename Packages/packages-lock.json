@@ -1,12 +1,13 @@
 {
   "dependencies": {
     "com.soupday.cc3_unity_tools": {
-      "version": "file:C:/Users/Tryston/Downloads/cc_unity_tools_URP-1.5.2.URP12/cc_unity_tools_URP-1.5.2.URP12",
+      "version": "https://github.com/soupday/cc_unity_tools_URP.git",
       "depth": 0,
-      "source": "local",
+      "source": "git",
       "dependencies": {
-        "com.unity.render-pipelines.universal": "12.0.0"
-      }
+        "com.unity.render-pipelines.universal": "10.5.0"
+      },
+      "hash": "f3f782cb2ab4f0f1eda522a7b7b2fc26ad78bbe9"
     },
     "com.unity.addressables": {
       "version": "1.21.18",

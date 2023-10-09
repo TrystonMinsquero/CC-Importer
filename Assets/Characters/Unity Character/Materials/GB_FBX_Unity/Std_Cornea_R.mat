@@ -61,18 +61,6 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
-    - unity_Lightmaps:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_LightmapsInd:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
-    - unity_ShadowMasks:
-        m_Texture: {fileID: 0}
-        m_Scale: {x: 1, y: 1}
-        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
     - BOOLEAN_ISCORNEA: 1
@@ -81,7 +69,6 @@ Material:
     - _ColorBlendStrength: 0
     - _CorneaSmoothness: 0.897
     - _DepthRadius: 0.8
-    - _EnvironmentReflections: 1
     - _IOR: 1.4
     - _IrisBrightness: 1.5
     - _IrisDepth: 0.2997
@@ -97,9 +84,6 @@ Material:
     - _PMod: 6.4
     - _ParallaxRadius: 0.1175
     - _PupilScale: 0.71999997
-    - _QueueControl: 0
-    - _QueueOffset: 0
-    - _ReceiveShadows: 1
     - _ScleraBrightness: 0.83160436
     - _ScleraHue: 0.51
     - _ScleraNormalStrength: 0.548
@@ -110,7 +94,6 @@ Material:
     - _ScleraSubsurfaceScale: 0.5
     - _ShadowHardness: 0.42
     - _ShadowRadius: 0.35
-    - _SpecularHighlights: 1
     - _TransAmbient: 0.1
     - _TransDirect: 0.9
     - _TransNormal: 0.95

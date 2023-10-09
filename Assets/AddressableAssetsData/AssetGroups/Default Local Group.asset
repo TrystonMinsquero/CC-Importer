@@ -16,7 +16,12 @@ MonoBehaviour:
   m_Data:
     m_SerializedData: []
   m_GUID: 8d8c7e5dea408134f9bf50fd77433c91
-  m_SerializeEntries: []
+  m_SerializeEntries:
+  - m_GUID: 939152e321b0348478298fb0d42cbbe0
+    m_Address: Assets/Characters/Unity Character/Prefabs/GB_FBX_Unity.prefab
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
   m_ReadOnly: 0
   m_Settings: {fileID: 11400000, guid: 0a7e9140e3f006c4086807abf7dba189, type: 2}
   m_SchemaSet:
