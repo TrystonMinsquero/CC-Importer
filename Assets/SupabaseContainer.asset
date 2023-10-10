@@ -12,4 +12,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 58bfafabf637dec4c86c9318d76083d8, type: 3}
   m_Name: SupabaseContainer
   m_EditorClassIdentifier: 
-  supabaseSettings: {fileID: 0}
+  supabaseSettings: {fileID: 11400000, guid: 2eccb3e6ff43c1c4aa343f824a231384, type: 2}
