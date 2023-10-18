@@ -1,0 +1,10 @@
+ManifestFileVersion: 0
+CRC: 108546661
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: characters/travis
+      Dependencies: {}
+    Info_1:
+      Name: characters/travis2
+      Dependencies: {}

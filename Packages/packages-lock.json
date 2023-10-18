@@ -9,6 +9,13 @@
       },
       "hash": "f3f782cb2ab4f0f1eda522a7b7b2fc26ad78bbe9"
     },
+    "com.unity.assetbundlebrowser": {
+      "version": "https://github.com/Unity-Technologies/AssetBundles-Browser.git",
+      "depth": 0,
+      "source": "git",
+      "dependencies": {},
+      "hash": "ad2a81ec3068eafd48753df1825a8dd7201ce60c"
+    },
     "com.unity.burst": {
       "version": "1.8.4",
       "depth": 1,

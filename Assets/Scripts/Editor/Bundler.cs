@@ -1,6 +1,7 @@
 using System.IO;
 using UnityEditor;
 using UnityEngine;
+using UnityEngine.Assertions.Must;
 
 
 public class Bundler
@@ -16,20 +17,21 @@ public class Bundler
         }
         BuildPipeline.BuildAssetBundles(assetBundleDirectory, 
             BuildAssetBundleOptions.None, 
-            BuildTarget.StandaloneWindows);
+            BuildTarget.Android);
         
     }
 
     [MenuItem("Assets/LoadAssetBundle")]
     static void LoadAsset()
     {
+        AssetBundle.UnloadAllAssetBundles(true);
+
         foreach(var guid in Selection.assetGUIDs)
         {
             var bundle = AssetBundle.LoadFromFile(AssetDatabase.GUIDToAssetPath(guid)).LoadAllAssets();
             foreach (var obj in bundle)
             {
-                
-                Debug.Log(obj);
+                GameObject.Instantiate(obj);
             }
         }
     }

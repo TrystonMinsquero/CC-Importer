@@ -1,0 +1,33 @@
+ManifestFileVersion: 0
+CRC: 1751516236
+Hashes:
+  AssetFileHash:
+    serializedVersion: 2
+    Hash: a1a553558d73e8590386010e95e5bb37
+  TypeTreeHash:
+    serializedVersion: 2
+    Hash: 112965f786cb50381fc4866651b5ac2f
+HashAppended: 0
+ClassTypes:
+- Class: 1
+  Script: {instanceID: 0}
+- Class: 4
+  Script: {instanceID: 0}
+- Class: 21
+  Script: {instanceID: 0}
+- Class: 28
+  Script: {instanceID: 0}
+- Class: 43
+  Script: {instanceID: 0}
+- Class: 48
+  Script: {instanceID: 0}
+- Class: 90
+  Script: {instanceID: 0}
+- Class: 95
+  Script: {instanceID: 0}
+- Class: 137
+  Script: {instanceID: 0}
+SerializeReferenceClassIdentifiers: []
+Assets:
+- Assets/Characters/Travis/Prefabs/Travis.prefab
+Dependencies: []
